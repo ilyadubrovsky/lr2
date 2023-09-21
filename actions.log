@@ -1,0 +1,17 @@
+kordi@LAPTOP-6T9USRBM:/mnt/d/UbuntuDisk$ dir evangelion > p5.txt
+kordi@LAPTOP-6T9USRBM:/mnt/d/UbuntuDisk$ ls -la
+total 12
+drwxrwxrwx 1 kordi kordi 4096 Sep 21 10:20 .
+drwxrwxrwx 1 kordi kordi 4096 Sep 21 09:51 ..
+drwxrwxrwx 1 kordi kordi 4096 Sep 21 10:10 evangelion
+-rwxrwxrwx 1 kordi kordi 1193 Sep 21 10:05 my-task.log
+drwxrwxrwx 1 kordi kordi 4096 Sep 21 09:33 os-labs
+-rwxrwxrwx 1 kordi kordi 6013 Sep 21 10:04 p3.log
+-rwxrwxrwx 1 kordi kordi   44 Sep 21 10:20 p5.txt
+kordi@LAPTOP-6T9USRBM:/mnt/d/UbuntuDisk$ cat p5.txt
+Misato_Katsuragi  Rei_Ayanami  Shinji_Ikari
+kordi@LAPTOP-6T9USRBM:/mnt/d/UbuntuDisk$ cat evangelion/Misato_Katsuragi/info.txt >> p5.txt
+kordi@LAPTOP-6T9USRBM:/mnt/d/UbuntuDisk$ echo '=======================' >> p5.txt
+kordi@LAPTOP-6T9USRBM:/mnt/d/UbuntuDisk$ cat evangelion/Rei_Ayanami/info.txt >> p5.txt
+kordi@LAPTOP-6T9USRBM:/mnt/d/UbuntuDisk$ echo '=======================' >> p5.txt
+kordi@LAPTOP-6T9USRBM:/mnt/d/UbuntuDisk$ cat evangelion/Shinji_Ikari/info.txt >> p5.txt
